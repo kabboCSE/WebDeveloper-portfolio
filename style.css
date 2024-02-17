@@ -185,6 +185,8 @@ margin-top: 0px;
 }
 .resume-container{
     margin: 30px;
+    align-items: left;
+    text-align: left;
 }
 .download-cv{
     margin-top: 50px;
@@ -192,7 +194,7 @@ margin-top: 0px;
 }
 footer{
     display: flex;
-    gap: 100px;
+    gap: 101px;
    
     background: #FFF8F3;
     padding: 130px 230px 150px 230px;
@@ -202,8 +204,8 @@ footer{
     width: 50%;
 }
 .footer-con input[type='text'],.footer-con input[type='email'],textarea{
-    /* padding: 13px 30px; */
-    /* width: 100%; */
+    padding: 13px 30px;
+    width: 100%; 
     margin: 10px;
     display: block;
     width: 461px;
@@ -211,4 +213,7 @@ footer{
     flex-shrink: 0;
     border-radius: 5px;
 background:  #FFF;
+}
+.socail-links a{
+    margin-right: 25px;
 }
